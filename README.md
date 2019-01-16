@@ -32,7 +32,5 @@ Laravel `5.3`
 * Adding an item in the menu list
 `Hydroeco-pigments / hydro-data / public_html / resources / views / app.blade.php`
 
-***
-
-# Result of work
-<img src="https://pp.userapi.com/c844320/v844320055/17af55/HY7QApJt06k.jpg"/>
+## Result of work
+<img src="https://camo.githubusercontent.com/6624cce07bf6f75faa9e74f3c921ba94653614e0/68747470733a2f2f70702e757365726170692e636f6d2f633834343332302f763834343332303035352f3137616635352f4859375141704a7430366b2e6a7067"/>
