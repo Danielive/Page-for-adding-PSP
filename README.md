@@ -1,33 +1,38 @@
-# Adding samples of photosynthetic pigments
+# Implementation of the adding samples functional of the website of photosynthetic pigment samples
 
-Using framework Laravel 5.3
+## [WebSite](http://hydro-data.onlinemkd.ru/add)
 
-Using to add data to the database
+## Framework
+Laravel `5.3`
 
-- Hydroeco-pigments / hydro-data / public_html / add.php
+## Structure
+    hydro-data
+    └──public_html
+	      ├── resources
+	      │         └── views
+	      │        	  └── pigments
+	      │             └── add.blade.php
+	      ├── add.php
+	      ├── getSerialNumb.php
+	      └── getStation.php
 
-Using to obtain the station
+## Description of files
+* Add data to the database
+`Hydroeco-pigments / hydro-data / public_html / add.php`
 
-- Hydroeco-pigments / hydro-data / public_html / getStation.php
+* Get the station
+`Hydroeco-pigments / hydro-data / public_html / getStation.php`
 
-Using to obtain the sample number
+* Get the sample number
+`Hydroeco-pigments / hydro-data / public_html / getSerialNumb.php`
 
-- Hydroeco-pigments / hydro-data / public_html / getSerialNumb.php
+* Contains page structure
+`Hydroeco-pigments / hydro-data / public_html / resources / views / pigments / add.blade.php`
 
-Contains page structure
+* Adding an item in the menu list
+`Hydroeco-pigments / hydro-data / public_html / resources / views / app.blade.php`
 
-- Hydroeco-pigments / hydro-data / public_html / resources / views / pigments / add.blade.php
+***
 
-Changes in the files:
-
-Add the path to the page
-
-- Hydroeco-pigments / hydro-data / public_html / app / Http / routes.php
-
-Adding an item in the menu list
-
-- Hydroeco-pigments / hydro-data / public_html / resources / views / app.blade.php
-
-Added add () function
-
-- Hydroeco-pigments / hydro-data / public_html / app / Http / Controllers / HydroController.php
+# Result of work
+<img src="https://pp.userapi.com/c844320/v844320055/17af55/HY7QApJt06k.jpg"/>
