@@ -1,4 +1,4 @@
-# Implementation of the adding samples functional of the website of photosynthetic pigment samples
+# Implementation of adding samples functional of the photosynthetic pigment samples website
 
 ## [WebSite](http://hydro-data.onlinemkd.ru/add)
 
